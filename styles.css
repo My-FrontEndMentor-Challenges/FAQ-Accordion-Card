@@ -79,8 +79,11 @@ body {
   width: 90%;
   user-select: none;
 }
-.single-question p {
+.question-text {
   color: hsl(237, 12%, 33%);
+}
+.question-text:hover {
+  color: hsl(14, 88%, 65%);
 }
 .selected-question {
   font-weight: 700;
