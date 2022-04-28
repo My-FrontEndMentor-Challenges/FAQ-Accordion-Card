@@ -1,9 +1,6 @@
 "use strict";
 
-const questionNode = document.querySelectorAll(".single-question");
-
-// Turn nodeList into Array
-const questions = [...questionNode];
+const questions = document.querySelectorAll(".single-question");
 
 questions.forEach((question, i) => {
   question.addEventListener("click", (e) => {
